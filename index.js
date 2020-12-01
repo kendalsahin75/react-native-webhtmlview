@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Linking, WebView } from 'react-native'
+import { Linking } from 'react-native'
+import { WebView } from 'react-native-webview';
 
 class WebHtmlView extends Component {
   constructor(props) {
